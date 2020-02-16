@@ -6,27 +6,31 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Quantum Random Number Generator</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Quantum Random Number Generator</h1>
-    <h2>Pick a range (i.e. from 3 to 42)</h2>
+    <h5>Pick a range (i.e. from 3 to 42)</h5>
 
     <form action="">
       <label for="first-number-range">From:</label><br>
       <input type="number" id="first-number-range"><br>
       <label for="second-number-range">To:</label><br>
       <input type="number" id="second-number-range"><br>
-      <button type="submit" id="generate">Generate Random Number</button>
+      <a class="waves-effect waves-light btn-large" id="generate">Generate Random Number</a>
+      <!---<button type="submit" id="generate"></button> -->
     </form>
 
     <div id="result"></div>
 
     <footer>Powered by the ANU Quantum Random Number API.</footer>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
+
   </body>
 </html>
