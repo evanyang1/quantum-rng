@@ -1,3 +1,12 @@
+h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+h5 {
+  margin-bottom: 4%;
+}
+
 footer {
   margin-top: 18%
 }
@@ -5,4 +14,30 @@ footer {
 * {
   margin-left: 2%;
   margin-right: 2%;
+}
+
+.form {
+  display: flex;
+}
+
+.form-label {
+  font-size: xx-large;
+}
+
+.generate-button {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  margin-bottom: 3%
+}
+
+.card-result {
+  justify-content: center;
+  
+}
+
+#result {
+  font-size: xx-large;
 }

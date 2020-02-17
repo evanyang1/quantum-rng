@@ -17,15 +17,29 @@
     <h5>Pick a range (i.e. from 3 to 42)</h5>
 
     <form action="">
-      <label for="first-number-range">From:</label><br>
-      <input type="number" id="first-number-range"><br>
-      <label for="second-number-range">To:</label><br>
-      <input type="number" id="second-number-range"><br>
-      <a class="waves-effect waves-light btn-large" id="generate">Generate Random Number</a>
-      <!---<button type="submit" id="generate"></button> -->
+      <div class="form">
+        <label for="first-number-range" class="form-label">From:</label><br>
+        <input type="number" id="first-number-range"><br>
+        <label for="second-number-range" class="form-label">To:</label><br>
+        <input type="number" id="second-number-range"><br>
+      </div>
+      <a class="waves-effect waves-light btn-large generate-button" id="generate">Generate Random Number</a>
     </form>
 
-    <div id="result"></div>
+    
+    <div class="row card-result">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title" id="result"></span>
+            
+          </div>
+          <div class="card-action">
+            
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer>Powered by the ANU Quantum Random Number API.</footer>
     
